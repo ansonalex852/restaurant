@@ -1,0 +1,78 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Georgia', serif;
+}
+
+/* Parallax Background */
+body {
+    background: linear-gradient(rgba(141, 93, 3, 0.7), rgba(228, 153, 15, 0.5)),
+                url('https://imgmediagumlet.lbb.in/media/2025/04/67eb9552866cac3eafacaeed_1743492434230.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed; /* This creates the parallax effect */
+    color: #4B3B2A; /* Warm brown text */
+}
+
+/* Menu Container */
+.menu-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 253, 240, 0.7); /* Cream overlay for readability */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    z-index: 2;
+    position: relative;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #556B2F; /* Olive accent */
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #8B6D5C;
+}
+
+/* Menu Sections */
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    font-size: 1.8em;
+    border-bottom: 1.5px solid #D2B48C; /* Tan underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Menu Items */
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #C0A080; /* Dotted leader */
+    padding-bottom: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #556B2F; /* Olive accent */
+}
