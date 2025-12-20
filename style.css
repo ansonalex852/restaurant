@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #f7f3e9;
+    color: #4b3b2a;
+}
+
+/* Background WITHOUT parallax */
+.menu-background {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+/* Menu Container */
+.menu-container {
+    background-color: rgba(247, 243, 233, 0.95);
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #556b2f; /* Olive */
+    font-size: 42px;
+}
+
+.tagline {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    color: #6b4f2c; /* Brown */
+    border-bottom: 2px solid #c2b280;
+    padding-bottom: 5px;
+}
+
+/* Menu Items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.dots {
+    flex: 1;
+    border-bottom: 2px dotted #6b4f2c;
+    margin: 0 10px;
+}
