@@ -1,0 +1,28 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #fff8e1;   /* CHANGED color */
+    padding: 20px;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: olive;
+}
+
+.welcome {
+    font-style: italic;
+    color: #5a3e2b;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    border-bottom: 1px dotted brown;
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
